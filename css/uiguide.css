@@ -42,16 +42,17 @@ h6{font-size: 12px;margin: 0;}
 .text-w {color: #ffffff;}
 
 /*set fot text*/
-nav{
+.home-nav{
 	position: fixed;
 	left: 0;
 	top: 0;
 	height: 88px;
 	width: 100%;
 	z-index: 999;
+	background-color: rgba(255,255,255,0);
 }
 
-nav ul{
+.home-nav-ul{
 	right: 0;
 	height: 64px;
 	margin: 0;
@@ -60,7 +61,7 @@ nav ul{
 	text-align: center;
 }
 
-nav ul li{
+.home-nav-ul-li{
 	display: inline-block;
 	text-align: center;
 	vertical-align: center;
@@ -72,6 +73,17 @@ nav ul li{
 .nav-lineheight{
 	line-height: 88px;
 }
+
+nav.navbar.bg{
+	background-color: rgba(255,255,255,1.00);
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.b1trans{
+	color:#1F1F26;
+}
+
 @media(max-width:767px){
 	.nav-lineheight{
 	line-height: 16vh;
