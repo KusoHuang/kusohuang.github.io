@@ -73,13 +73,12 @@ h6{font-size: 12px;margin: 0;}
 .nav-lineheight{
 	line-height: 88px;
 }
-
 nav.navbar.bg{
 	background-color: rgba(255,255,255,1.00);
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
-}
-
+	border-bottom: 1px solid #C7C6CA;
+	border-radius: 0;}
 .b1trans{
 	color:#1F1F26;
 }
