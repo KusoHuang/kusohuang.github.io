@@ -1,55 +1,195 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.work-grid{
+.work-grid {
 	width: 100%;
 	margin: 0 auto;
 }
 
-@media(min-width:768){
-	.work-grid{
-		width: 720px;
-		
-	}
+@media(min-width:768) {
+.work-grid {
+	width: 720px;
 }
-@media(min-width:992){
-	.work-grid{
-		width: 960px;
-	}
 }
 
-
-.work-title{
+@media(min-width:992) {
+.work-grid {
+	width: 960px;
+}
+}
+.work-title {
 	width: 100%;
 	height: 100vh;
-	background-color:#C11215;
-	
+	background-color: #000000;
+	position: relative;
 }
+/*
+.work-title h1{
+	font-size: 72px;}
 
-.work-title-pic{
-	
+@media(max-width:767px){
+.work-title h1{
+	font-size: 48px;}
 }
+*/
 
-.work-title-text-box{
+.work-title-pic {
+}
+.work-title-text-box {
 	height: 100vh;
 	line-height: 100vh;
 }
-
-.work-title-text-text{
+.work-title-text-text {
 	display: inline-block;
 	vertical-align: middle;
 	line-height: normal;
 }
-
-
-.worl-top-l{
-	margin:  
-}
-
-.test1{
+.test1 {
 	background-color: #2A18D1;
 }
-
-.test2{
+.test2 {
 	background-color: #05BB6A;
+}
+/*page navigater class*/
+
+.work-navigate-container {
+	height: 160px;
+	display: flex;
+	align-items: center;
+	padding: 0;
+}
+.work-navigate {
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+.work-navigate:hover i, .work-navigate:hover .work-navigate-text {
+	color: #04CEDE;
+	text-shadow: 0px 0px 8px #04CEDE;
+}
+.work-navigate-l {
+	justify-content: flex-start;
+}
+.work-navigate-r {
+	justify-content: flex-end;
+}
+.work-navigate i {
+	font-size: 36px;
+	color: rgba(255,255,255,1.00);
+	margin: 0;
+	font-style: normal;
+}
+.work-navigate-text {
+	color: rgba(255,255,255,1.00);
+	margin: 0 12px;
+	display: inline-block;
+}
+.work-navigate-img {
+	display: flex;
+	width: 96px;
+	height: 96px;
+	overflow: hidden;
+	-webkit-clip-path: circle(50% at 50% 50%);
+}
+.work-navigate-img img {
+	max-width: 100%;
+	height: auto;
+}
+/*behind this line add each banners class*/
+
+/*1.accupassredesign*/
+.accupassredesign-bannerbg {
+	background-image: url(../img/accupassredesign/accupassredesign_bannerbg.png);
+	background-size: cover;
+	background-position: bottom center;
+	overflow: hidden
+}
+.accupassredesign-bannerimg {
+	position: absolute;
+	width: 1085px;
+	height: 437px;
+	left: 50%;
+	top: 50vh;
+	margin: -219px 0 0 -80px;
+}
+.accupassredesign-bannercover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	background-color: #45BDDE;
+}
+/*2.accupassside*/
+.accupassside-bannerbg {
+	overflow: hidden;
+	/* fallback */
+	background-color: #28AAF9;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#28AAF9), to(#0062AC));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #28AAF9, #0062AC);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #28AAF9, #0062AC);
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #28AAF9, #0062AC);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #28AAF9, #0062AC);
+}
+.accupassside-bannerimg {
+	position: absolute;
+	width: 1032px;
+	height: 1046px;
+	right: 10%;
+	top: 20vh;
+	margin: 0px -240px 0 0px;
+}
+.accupassside-bannercover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	background-color: #28AAF9;
+}
+/*3.accupassux*/
+.accupassux-bannerbg {
+	overflow: hidden;
+	background-color: #001C61;
+}
+.accupassux-bannerimg {
+	position: absolute;
+	width: 1200px;
+	height: 969px;
+	right: -30%;
+	top: 10vh;
+	margin: 0px -120px 0 0px;
+}
+.accupassux-bannercover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	background-color: #001C61;
+}
+/*4.jkosui*/
+.jkosui-bannerbg {
+	overflow: hidden;
+	background-color: #D9411E;
+	background-image: url(../img/../img/jkosui/jkosui_bannerbg.png);
+	background-size: cover;
+	background-position: bottom center;
+}
+.jkosui-bannerimg {
+	position: absolute;
+	width: 983px;
+	height: 454px;
+	left: 60%;
+	top: 50vh;
+	margin: -227px 0 0 -80px;
+}
+.jkosui-bannercover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	background-color: #DB5320;
 }

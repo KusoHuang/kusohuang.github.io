@@ -14,7 +14,7 @@
 }
 .sky-bg-color{
 	background-image: linear-gradient(to bottom, #11082d, #4a02c1);
-	z-index: -100;
+	z-index: 0;
 
 }
 .sky-element{
@@ -26,7 +26,17 @@
 .sky-title{
 	width: auto;
 	margin: 30vh auto;
+	padding: 0;
 	text-align: center;
+}
+@media(max-width:767px){
+	.sky-title{
+	margin: 5vh auto;
+		padding: 24px;
+}
+	.sky-title h2{
+		font-size: 36px;
+	}
 }
 /*雲*/
 .sky-layer-00 {
@@ -44,13 +54,9 @@
 }
 /*人物*/
 .sky-layer-01 {
-	width: 220px;
-	height: 220px;
-	z-index: -55;
-	background-image: url(../img/sky_layer01.svg);
-	top: 48vh;
-	left: 50%;
-	margin-left: -110px;/*為了左右對齊*/
+	position: relative;
+	display: inline-block;
+	top: 16px;
 }
 /*視覺星星*/
 .sky-layer-02 {
@@ -339,7 +345,7 @@
 	background-image: url(../img/contact-cloud01.svg);
 	background-position: bottom center;
 	background-size: contain;
-	z-index: 50;
+	z-index: -20;
 	position: absolute;
 	bottom: -1px;
 	left: 50%;
@@ -352,7 +358,7 @@
 	background-image: url(../img/contact-cloud02.svg);
 	background-position: bottom center;
 	background-size: contain;
-	z-index: 55;
+	z-index: -15;
 	position: absolute;
 	bottom: -1px;
 	left: 50%;
@@ -366,7 +372,7 @@
 	background-image: url(../img/contact-cloud03.svg);
 	background-position: bottom center;
 	background-size: contain;
-	z-index: 60;
+	z-index: -10;
 	position: absolute;
 	bottom: -1px;
 	left: 50%;
@@ -380,7 +386,7 @@
 	background-image: url(../img/contact-rocket.svg);
 	background-position: bottom center;
 	background-size: contain;
-	z-index: 45;
+	z-index: -25;
 	position: absolute;
 	bottom: -1px;
 	left: 50%;
@@ -433,4 +439,18 @@
 		text-align: left;
 		
 }
+}
+
+/*contact btn color*/
+.contact-fb{
+	width: 60px;
+	background-color: #3b5998;
+}
+.contact-in{
+	width: 60px;
+	background-color: #0077b5;
+}
+.contact-twitter{
+	width: 60px;
+	background-color: #1da1f2;
 }
