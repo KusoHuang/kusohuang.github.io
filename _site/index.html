@@ -9,22 +9,35 @@
     <title>Kuso's portfolio</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+   	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+   <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Theme CSS -->
     <link href="css/skybg.css" rel="stylesheet">
     <link href="css/uiguide.css" rel="stylesheet">
-    <link href="css/hover.css" rel="stylesheet">
-      
+    <link href="css/hover.css" rel="stylesheet">  
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-
-   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-<!--    <script src="tether.min.js"></script>-->
+    
+<!--	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>-->
     <script src="js/home.js"></script>
+
+
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -37,14 +50,37 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-full navbar-fixed-top navbar-dark" role="navigation">
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded home-nav hide-in-mobile">
 <!--
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Navbar</a>
+-->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="mr-auto home-nav-ul" id="navbarItem">
+      <li class="nav-item home-nav-ul-li">
+        <a class="nav-link" href="#mainSkill"><h4 class="text-w text-normal nav-lineheight">主要技能</h4></a>
+      </li>
+      <li class="nav-item home-nav-ul-li">
+        <a class="nav-link" href="#portfolio"><h4 class="text-w text-normal nav-lineheight">作品集</h4></a>
+      </li>
+      <li class="nav-item home-nav-ul-li">
+        <a class="nav-link disabled" href="#aboutMe"><h4 class="text-w text-normal nav-lineheight">關於我</h4></a>
+      </li>
+      <li class="nav-item home-nav-ul-li">
+        <a class="nav-link disabled" href="#contact"><h4 class="text-w text-normal nav-lineheight">聯絡我</h4></a>
+      </li>
+        </ul>
+  </div>
+</nav>
+<!--
+    <nav class="navbar navbar-full navbar-fixed-top home-nav" role="navigation">
         <button class="navbar-toggler hidden-md-up " type="button" data-toggle="collapse" data-target="#myBar" aria-control="myBar" aria-expanded="false" aria-label="nav toggle">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span> 
         </button>
--->
         <div class="collapse navbar-toggleable-sm" id="myBar">
             <ul class="nav navbar-bg-sm">
                <div class="space-m hide-in-pc"></div>
@@ -54,6 +90,7 @@
 				<li class=""><div></div> <a class="nav-link" href="#contact"><h4 class="text-w text-normal nav-lineheight">聯絡我</h4></a> </li>
        			</ul>        </div>
     </nav>
+-->
         <div class="tab-content">
             <div id="menu1" class="tab-pane fade">
                 <h3>Menu 1</h3>
@@ -64,32 +101,8 @@
                 <p>Some content in menu 2.</p>
             </div>
         </div>
-        
-<!--
-<nav class="nav"><ul class="margin-m">
-<div class="container-fluid">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="homeNavbar">
-	    <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-</button>
-<div class="collapse navbar-collapse" id="homeNavbar">
-<ul class="nav navbar-nav">
-	<li>
-		<a><h4 class="text-b1 text-normal">從事工作</h4></a>	</li>
-	<li>
-		<a><h4 class="text-b1 text-normal">作品集</h4></a>	</li>
-	<li>
-		<a><h4 class="text-b1 text-normal">關於我</h4></a>	</li>
-	<li>
-		<a><h4 class="text-b1 text-normal">聯絡我</h4></a>	</li>
-</ul>
-</div></div>
-</ul></nav>
--->
+
     <div class="sky-bg-size sky-bg-hide sky-bg-color">
-        <div class="sky-layer-01 sky-element"></div>
-        <div class="sky-layer-02 sky-element"></div>
         <div class="sky-layer-03-plant-01 sky-element hide-in-mobile"></div>
         <div class="sky-layer-03-plant-02 sky-element hide-in-mobile"></div>
         <div class="sky-layer-03-plant-03 sky-element hide-in-mobile"></div>
@@ -99,7 +112,11 @@
         <div class="sky-layer-04-plant-04 sky-element hide-in-mobile"></div>
         <div class="sky-layer-00"></div>
         <div class="sky-layer-05 sky-element"></div>
-        <div class="sky-title"><h2 class="text-w text-align-c">你好我是 Kuso，<br class="hide-in-mobile">我是一位 UI 設計師</h2></div>
+        <div class="sky-title">
+        <h2 class="text-w text-align-c">你好，我是Kuso<br class="hide-in-mobile">我是UI設計師</h2>
+        <div class=""><img class="contain-img sky-layer-01" src="img/sky_layer01.svg"></div>
+        <div class=""></div>
+</div>
     </div>
     <div class="space-l" id="mainSkill"></div>
     	<div class="margin-l space-l"><h3 class="text-align-c text-b1 text-normal">我會做什麼？</h3></div>
@@ -108,36 +125,36 @@
 		<div class="mobile-scroll-grid home-content-grid">
 			<div class="serve-info"><div class="space-m"></div><div class="serve-img"><img class="contain-img" src="img/serve_ui.svg"></div><div class="serve-text">
 			<h4 class="text-b2 text-normal">APP/Web UI設計</h4>
-			<h5 class="margin-s text-b2 text-lighter">針對不同產品需求設計人機介面，讓產品能理所當然地使用。</h5></div></div>
+			<h5 class="margin-s text-b2 text-normal">針對不同產品需求設計人機介面，讓產品能理所當然地使用。</h5></div></div>
 			<div class="serve-info"><div class="space-m"></div><div class="serve-img"><img class="contain-img" src="img/serve_ux.svg"></div><div class="serve-text">
 			<h4 class="text-b2 text-normal">UX研究</h4>
-			<h5 class="margin-s text-b2 text-lighter">利用實際存在的資料貼近使用者實際的狀況。</h5></div></div>
+			<h5 class="margin-s text-b2 text-normal">利用實際存在的資料貼近使用者實際的狀況。</h5></div></div>
 			<div class="serve-info"><div class="space-m"></div><div class="serve-img"><img class="contain-img" src="img/serve_graphic.svg"></div><div class="serve-text">
 			<h4 class="text-b2 text-normal">視覺設計</h4>
-			<h5 class="margin-s text-b2 text-lighter">良好舒適的視覺設計提升美學易用性，平衡產品整體易用性。</h5></div></div>
+			<h5 class="margin-s text-b2 text-normal">良好舒適的視覺設計提升美學易用性，平衡產品整體易用性。</h5></div></div>
 			<div class="serve-info"><div class="space-m"></div><div class="serve-img"><img class="contain-img" src="img/serve_prototype.svg"></div><div class="serve-text">
 			<h4 class="text-b2 text-normal">原型製作師</h4>
-			<h5 class="margin-s text-b2 text-lighter">製作原型測試基本使用狀況、實際效果，幫助產品自我檢視以及溝通。</h5></div></div>
+			<h5 class="margin-s text-b2 text-normal">製作原型測試基本使用狀況、實際效果，幫助產品自我檢視以及溝通。</h5></div></div>
 
 				</div>
 	</div>
-	<div class="margin-l"></div>
-	<div class="space-l bg-b0" id="portfolio"></div>
+	<div class="space-l" id="portfolio"></div>
+	<div class="space-l bg-b0"></div>
 	<div class="space-l bg-b0"></div>
 	<div class="bg-b0"><h3 class="text-w text-align-c text-normal">我的作品</h3></div>
 	<div class="space-s bg-b0"></div>
 	<div class="home-container bg-b0">
 		<div class="work-grid col-xs-12">
 			<a href="accupassredesign.html" class="work-info hvr-float"><img class="contain-img" src="img/home_work/work_accupassredesign.png"><h4 class="work-info-text text-w text-align-l text-normal">Accupass APP redesign</h4></a>
-			<a class="work-info hvr-float"><img class="contain-img" src="img/home_work/work_accupassproject.png"><h4 class="work-info-text text-w text-align-l text-normal">Accupass APP side project</h4></a>
-			<a class="work-info hvr-float"><img class="contain-img" src="img/home_work/work_accupassux.png"><h4 class="work-info-text text-w text-align-l text-normal">Accupass User mapping</h4></a>
-			<a class="work-info hvr-float"><img class="contain-img" src="img/home_work/work_jkos.png"><h4 class="work-info-text text-w text-align-l text-normal">Jkos街口 APP Design</h4></a>
+			<a href="accupassside.html" class="work-info hvr-float"><img class="contain-img" src="img/home_work/work_accupassproject.png"><h4 class="work-info-text text-w text-align-l text-normal">Accupass APP side project</h4></a>
+			<a href="accupassux.html" class="work-info hvr-float"><img class="contain-img" src="img/home_work/work_accupassux.png"><h4 class="work-info-text text-w text-align-l text-normal">Accupass User mapping</h4></a>
+			<a href="jkosui.html" class="work-info hvr-float"><img class="contain-img" src="img/home_work/work_jkos.png"><h4 class="work-info-text text-w text-align-l text-normal">Jkos街口 APP Design</h4></a>
 			<a class="work-info text-normal hvr-float"><img class="contain-img" src="img/home_work/work_accupassredesign.png"><h4 class="work-info-text text-w text-align-l text-normal">測試測試測試測試測試測試測試測試測試測試</h4></a>
 		</div>
 		</div>
-		<div class="space-l bg-b0"></div>
-		<div class="space-l bg-w" id="aboutMe"></div>
-	<div class="container"><div class="col-lg-1" ></div><div class="col-lg-10 col-md-12 col-sm-12 text-align-c"><h3 class="margin-l text-b1 text-normal">關於我</h3><img class="contain-img margin-m hvr-rotate" src="img/aboutme_head.svg"><h5 class="margin-l text-b2 text-lighter">踏入UI/UX領域工作後，發現要學的東西真是又多又雜，總要追著最新的東西跑，覺得跨領域的合作除了技能之外，更重要的是互相的尊重與分享共同成長。
+		<div class="space-l bg-b0" id="aboutMe"></div>
+		<div class="space-l bg-w"></div>
+	<div class="container"><div class="col-lg-1" ></div><div class="col-lg-10 col-md-12 col-sm-12 text-align-c"><h3 class="margin-l text-b1 text-normal">關於我</h3><img class="contain-img margin-m hvr-rotate" src="img/aboutme_head.svg"><h5 class="margin-l text-b2 text-normal">踏入UI/UX領域工作後，發現要學的東西真是又多又雜，總要追著最新的東西跑，覺得跨領域的合作除了技能之外，更重要的是互相的尊重與分享共同成長。
 
 希望可以把UI做到讓人無法注意到，因為UI的目的是要理所當然、但又無所不在的。
 
@@ -176,12 +193,16 @@
 	</div>
 	
 	</div>
-	<div class="margin-l space-l"></div>
+	<div class="margin-l space-l"></div>		
+	<div class="sky-bg-hide contact-bg-size sky-bg-color" id="contact">
+		<div><div class="contact-text-box"><div class="space-m hide-in-mobile"></div><h4 class="text-w text-normal">如果你對於我的作品有興趣或是任何疑問，非常歡迎您與我聯絡</h4>	
+		<a href="mailto:ralphhoh2000@gmail.com" target="_blank" class="btn-main margin-m contact-buttom hvr-float"><h4 class="text-w text-align-c text-normal">聯絡我</h4></a>
+		<div class="margin-m"><h5 class="text-w text-normal">或是透過其他方式找到我</h5></div>
+		<a href="https://www.facebook.com/profile.php?id=100000915195841" target="_blank" class="btn-round margin-m contact-fb hvr-float"><h4 class="text-w text-align-c text-normal"><span class="entypo-facebook"></span></h4></a>
+		<a href="https://twitter.com/KusoUJ" target="_blank" class="btn-round margin-m contact-twitter hvr-float"><h4 class="text-w text-align-c text-normal"><span class="entypo-twitter"></span></h4></a>
+		<a href="http://linkedin.com/in/yue-zhe-huang-950ab1117" target="_blank" class="btn-round margin-m contact-in hvr-float"><h4 class="text-w text-align-c text-normal"><span class="entypo-linkedin"></span></h4></a>
 
-	<div class="sky-bg sky-bg-hide contact-bg-size sky-bg-color" id="contact">
-		<div><div class="contact-text-box"><div class="space-m hide-in-mobile"></div><div class="text-w"><h4 class="text-w text-lighter">如果你對於我的作品有興趣或是任何疑問，非常歡迎您與我聯絡</h4></div>
-		<a href="mailto:ralphhoh2000@gmail.com" taget="_blank" class="btn-main margin-m contact-buttom hvr-float"><h4 class="text-w text-align-c text-lighter">聯絡我</h4></a>
-		<div class="margin-m"><h5 class="text-w text-lighter">或是透過其他方式找到我</h5></div></div>
+				</div>
 		<div class="contact-cloud01-img sky-element"></div>
 		<div class="contact-cloud02-img sky-element"></div>
 		<div class="contact-cloud03-img sky-element"></div>
