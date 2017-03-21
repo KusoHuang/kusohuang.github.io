@@ -78,6 +78,10 @@ h6{font-size: 12px;margin: 0;}
 	color: #04CEDE;
 	text-shadow: 0 0 16px rgba(4,206,222,0.5);
 }
+.home-nav-ul-li a:active h4{
+	color: #088A94;
+	text-shadow: 0 0 16px rgba(4,206,222,0);
+}
 
 .nav-lineheight{
 	line-height: 88px;
@@ -271,7 +275,6 @@ nav.navbar.bg{
 .btn-float span {
 	color: rgba(255,255,255,1.00);
 	font-size: 36px;
-	line-height: 76px;
 	z-index: 9999;	
 }
 @media(max-width:767px){
