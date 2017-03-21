@@ -29,6 +29,7 @@
 <link href="css/hover.css" rel="stylesheet">
 <!-- Custom Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+<link href="css/portfoliofont.css" rel="stylesheet">
 <!--	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>-->
 <script src="js/home.js"></script>
 </head>

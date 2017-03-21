@@ -1,12 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-
 /* entypo */
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-}
+
 
 body{font-family: 'Open Sans', sans-serif;}
 .contain-img{max-width: 100%;max-height: 100%;}
@@ -268,10 +264,14 @@ nav.navbar.bg{
 .btn-float:hover{
 	background-color: #04CEDE;
 }
+.btn-float:active{
+	background-color: #088A94;
+}
 
 .btn-float span {
 	color: rgba(255,255,255,1.00);
 	font-size: 36px;
+	line-height: 76px;
 	z-index: 9999;	
 }
 @media(max-width:767px){

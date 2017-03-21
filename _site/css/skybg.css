@@ -38,6 +38,7 @@
 		font-size: 36px;
 	}
 }
+
 /*雲*/
 .sky-layer-00 {
 	width: 1920px;
@@ -47,7 +48,7 @@
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-image: url(../img/sky_layer00.png);
-	bottom: -1px;
+	bottom: -3px;
 	left: 50%;
 	margin-left: -960px;
 	
