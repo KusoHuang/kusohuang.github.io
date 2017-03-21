@@ -32,21 +32,21 @@ h6{font-size: 12px;margin: 0;}
 .text-align-c{text-align: center}
 .text-align-r{text-align: right}
 
-.bg-b0 {background-color: #1F1F26;}
-.bg-b1 {background-color: #353542;}
-.bg-b2 {background-color: #656570;}
-.bg-b3 {background-color: #A1A1A6;}
-.bg-b4 {background-color: #C7C6CA;}
-.bg-b5 {background-color: #ECECED;}
-.bg-b6 {background-color: #F6F6F6;}
+.bg-b0 {background-color: #031D49;}
+.bg-b1 {background-color: #293F64;}
+.bg-b2 {background-color: #4E607F;}
+.bg-b3 {background-color: #75839B;}
+.bg-b4 {background-color: #B3BBC8;}
+.bg-b5 {background-color: #D9DDE4;}
+.bg-b6 {background-color: #F2F3F6;}
 .bg-w {background-color: #ffffff;}
 
-.text-b1 {color: #353542;}
-.text-b2 {color: #656570;}
-.text-b3 {color: #A1A1A6;}
-.text-b4 {color: #C7C6CA;}
-.text-b5 {color: #ECECED;}
-.text-b6 {color: #F6F6F6;}
+.text-b1 {color: #293F64;}
+.text-b2 {color: #4E607F;}
+.text-b3 {color: #75839B;}
+.text-b4 {color: #B3BBC8;}
+.text-b5 {color: #D9DDE4;}
+.text-b6 {color: #F2F3F6;}
 .text-w {color: #ffffff;}
 
 /*set fot text*/
@@ -212,6 +212,10 @@ nav.navbar.bg{
 .btn-main h1,.btn-main h2,.btn-main h3,.btn-main h4,.btn-main h5{
 	text-align: center;
 		color: #FFFFFF;
+}
+
+.btn-main:active{
+	background:#088A94;
 }
 
 .btn-ghost{

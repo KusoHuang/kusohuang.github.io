@@ -13,7 +13,7 @@
 	overflow: hidden
 }
 .sky-bg-color{
-	background-image: linear-gradient(to bottom, #11082d, #4a02c1);
+	background-image: linear-gradient(to bottom, #002E7F, #031D49);
 	z-index: 0;
 
 }
@@ -97,8 +97,8 @@
 }
 /*綠色帶環星*/
 .sky-layer-04-plant-01 {
-	width: 284px;
-	height: 286px;
+	width: 300px;
+	height: 300px;
 	z-index: -70;
 	background-image:url(../img/sky_layer04_plant01.svg);
 	bottom: 34vh;
