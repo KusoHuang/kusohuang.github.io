@@ -196,6 +196,9 @@ nav.navbar.bg{
 .space-l{height: 48px}
 .space-m{height: 24px}
 .space-s{height: 12px}
+.radius-6{  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;}
 	
 .btn-main {
   background: #04CEDE;
