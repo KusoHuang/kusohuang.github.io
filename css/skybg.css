@@ -51,6 +51,7 @@
 	bottom: -3px;
 	left: 50%;
 	margin-left: -960px;
+
 	
 }
 /*人物*/
@@ -58,7 +59,10 @@
 	position: relative;
 	display: inline-block;
 	top: 16px;
+	
 }
+
+
 /*視覺星星*/
 .sky-layer-02 {
 	width: 288px;
