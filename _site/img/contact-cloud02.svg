@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1080px" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>contact-cloud02</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-66">
+            <rect id="Rectangle-2" x="0" y="0" width="1920" height="1080"></rect>
+            <g id="Group-56" transform="translate(211.000000, 528.000000)" fill="#F5F5F5">
+                <ellipse id="Oval-11" cx="97.5999955" cy="446.399979" rx="19.1999991" ry="19.1999991"></ellipse>
+                <ellipse id="Oval-11" cx="9.59999955" cy="387.199982" rx="9.59999955" ry="9.59999955"></ellipse>
+                <circle id="Oval-11" cx="201.599991" cy="345.599984" r="9.59999955"></circle>
+                <ellipse id="Oval-11" cx="249.599988" cy="377.599982" rx="9.59999955" ry="9.59999955"></ellipse>
+                <circle id="Oval-11" cx="353.599984" cy="172.799992" r="9.59999955"></circle>
+                <ellipse id="Oval-11" cx="513.599976" cy="196.799991" rx="9.59999955" ry="9.59999955"></ellipse>
+                <ellipse id="Oval-11" cx="555.199974" cy="55.9999974" rx="9.59999955" ry="9.59999955"></ellipse>
+                <ellipse id="Oval-11" cx="977.599955" cy="100.799995" rx="9.59999955" ry="9.59999955"></ellipse>
+                <ellipse id="Oval-11" cx="1041.59995" cy="228.799989" rx="9.59999955" ry="9.59999955"></ellipse>
+                <ellipse id="Oval-11" cx="1329.6" cy="377.6" rx="9.59999955" ry="9.59999955"></ellipse>
+                <ellipse id="Oval-11" cx="1263.6" cy="254.6" rx="9.59999955" ry="9.59999955"></ellipse>
+                <ellipse id="Oval-11" cx="1200.6" cy="367.6" rx="9.59999955" ry="9.59999955"></ellipse>
+                <circle id="Oval-11" cx="438.39998" cy="225.59999" r="19.1999991"></circle>
+                <ellipse id="Oval-11" cx="612.799972" cy="19.1999991" rx="19.1999991" ry="19.1999991"></ellipse>
+                <ellipse id="Oval-11" cx="964.799955" cy="188.799991" rx="19.1999991" ry="19.1999991"></ellipse>
+                <ellipse id="Oval-11" cx="1358.2" cy="465.199999" rx="19.1999991" ry="19.1999991"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
