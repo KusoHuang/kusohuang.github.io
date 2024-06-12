@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- TemplateBeginEditable name="title" --><title>Work Name Here</title><!-- TemplateEndEditable -->
+<!-- Bootstrap Core CSS -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Theme CSS -->
+<link href="css/work.css" rel="stylesheet">
+<link href="css/uiguide.css" rel="stylesheet">
+<link href="css/hover.css" rel="stylesheet">
+<!-- Custom Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+<link href="css/portfoliofont.css" rel="stylesheet">
+<!--	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>-->
+<script src="js/home.js"></script>
+</head>
+
+<body ontouchstart="">
+<!--Banner--><!-- TemplateBeginEditable name="content" -->
+
+	<div class="work-title"><div class="container"><div class="work-title-text-box test2 col-lg-6 col-md-6 col-sm-6 col-xs-12" ><div class="work-title-text-text"><h1>Work Name Here</h1>
+	</div>
+	</div>
+	</div>
+</div>
+	<div class="home-container">
+		<div class="home-text-grid">
+			<div class="margin-l">
+				<img class="contain-img" src="#">
+			</div>
+			<div class="margin-l">
+				<div class="margin-m"><h3>small tltle</h3></div>
+				<div class="margin-m"><h5>content</h5></div>
+			</div>
+		</div>
+		
+
+	</div>
+
+<!--content-->
+
+<!--contact-->
+<div></div>
+
+<!-- TemplateEndEditable -->
+
+</body>
+</html>
